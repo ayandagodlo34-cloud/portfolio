@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayanda Godlo | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="#home" class="logo">Ayanda<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <h1>Hi, I'm <span class="highlight">Ayanda</span>.</h1>
+    <p class="subtitle">Computer Science student &amp; aspiring software developer.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="assets/Ayanda-Godlo-CV.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+        View CV
+      </a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a final-year Computer Science student at Tshwane University of Technology
+      with a passion for building clean, functional applications. I enjoy working
+      with Java, web technologies, and learning how systems fit together from the
+      database up to the user interface.
+    </p>
+    <p>
+      When I'm not coding, I'm exploring new tools, contributing to personal
+      projects, and sharpening my problem-solving skills.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <p>Java, JavaScript, HTML, CSS, SQL</p>
+      </div>
+      <div class="skill-card">
+        <h3>Frameworks &amp; Tools</h3>
+        <p>Java EE, JPA, GlassFish, NetBeans, Git</p>
+      </div>
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <p>Derby, MySQL, PostgreSQL</p>
+      </div>
+      <div class="skill-card">
+        <h3>Concepts</h3>
+        <p>OOP, REST APIs, MVC, Responsive Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>My Work</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <h3>CoinToss Web App</h3>
+        <p>A Java EE web application that simulates coin tosses, tracks players,
+           and stores statistics using JPA and Derby.</p>
+        <p class="tech">Java EE · JPA · GlassFish · Derby</p>
+        <a href="https://github.com/ayandagodlo34-cloud/cointoss-webapp" class="project-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Caesar Cipher Tool</h3>
+        <p>A Java EE web application that encrypts and decrypts text using the
+           classic Caesar cipher. Every operation is logged and persisted to a
+           Derby database with full history tracking.</p>
+        <p class="tech">Java EE · JPA · Servlets · GlassFish</p>
+        <a href="https://github.com/ayandagodlo34-cloud/CipherText" class="project-link">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>Diploma in Computer Science (Extended)</h3>
+      <p class="muted">Tshwane University of Technology · 2023 – Present · Average: 71%</p>
+    </div>
+    <div class="edu-item" style="margin-top: 1rem;">
+      <h3>National Senior Certificate</h3>
+      <p class="muted">Randfontein High School · 2018 – 2022</p>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section id="cv" class="section">
+    <h2>Curriculum Vitae</h2>
+    <div class="cv-panel">
+      <div class="cv-icon">📄</div>
+      <div class="cv-info">
+        <h3>Ayanda Godlo — CV</h3>
+        <p class="muted">
+          Full résumé including education, skills, and project experience.
+          Updated 2026.
+        </p>
+      </div>
+      <div class="cv-actions">
+        <a href="assets/Ayanda-Godlo-CV.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-primary">
+          View CV
+        </a>
+        <a href="assets/Ayanda-Godlo-CV.pdf"
+           download="Ayanda-Godlo-CV.pdf"
+           class="btn btn-outline">
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Get In Touch</h2>
+    <p>
+      I'm currently looking for a <strong>Work Integrated Learning (WIL)</strong>
+      placement. Feel free to reach out!
+    </p>
+    <div class="contact-links">
+      <a href="mailto:godloayanda553@gmail.com" class="btn btn-primary">Email Me</a>
+      <a href="https://github.com/ayandagodlo34-cloud" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/ayanda-godlo-217a9a332/" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Ayanda Godlo. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
